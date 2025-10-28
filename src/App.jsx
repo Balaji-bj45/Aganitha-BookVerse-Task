@@ -11,6 +11,8 @@ const RESULTS_PER_PAGE = 18; // Adjusted for a 6-column layout on large screens
 // Main Application Component
 // Handles state management, search logic, and layout/rendering
 //final application.
+// Utilizes components: Header, Hero, BookGrid, Pagination, Footer
+// Implements interactive background effect
 
 function App() {
   const [books, setBooks] = useState([]);
