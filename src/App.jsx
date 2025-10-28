@@ -100,6 +100,7 @@ function App() {
           {totalResults > RESULTS_PER_PAGE && !isLoading && (
             <Pagination
               currentPage={currentPage}
+              
               totalResults={totalResults}
               limit={RESULTS_PER_PAGE}
               onPageChange={handlePageChange}
