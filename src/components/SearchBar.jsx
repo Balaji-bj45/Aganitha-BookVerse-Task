@@ -17,7 +17,7 @@ const SearchBar = ({ onSearch, isLoading }) => {
       <div className="block md:hidden space-y-3">
         {/* Search Input */}
         <div className="relative">
-          <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+          <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none z-10">
             <FiSearch className="text-gray-400 text-lg" />
           </div>
           <input
@@ -64,7 +64,7 @@ const SearchBar = ({ onSearch, isLoading }) => {
       {/* Tablet Layout - Compact */}
       <div className="hidden md:block lg:hidden">
         <div className="relative">
-          <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
+          <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none z-10">
             <FiSearch className="text-gray-400 text-lg" />
           </div>
           <input
@@ -108,7 +108,7 @@ const SearchBar = ({ onSearch, isLoading }) => {
       {/* Desktop Layout - Full */}
       <div className="hidden lg:block">
         <div className="relative">
-          <div className="absolute inset-y-0 left-0 pl-6 flex items-center pointer-events-none">
+          <div className="absolute inset-y-0 left-0 pl-6 flex items-center pointer-events-none z-10">
             <FiSearch className="text-gray-400 text-xl" />
           </div>
           <input
