@@ -8,6 +8,9 @@ import Pagination from './components/Pagination';
 import Footer from './components/Footer';
 
 const RESULTS_PER_PAGE = 18; // Adjusted for a 6-column layout on large screens
+// Main Application Component
+// Handles state management, search logic, and layout/rendering
+//final application.
 
 function App() {
   const [books, setBooks] = useState([]);
@@ -100,8 +103,7 @@ function App() {
           {totalResults > RESULTS_PER_PAGE && !isLoading && (
             <Pagination
               currentPage={currentPage}
-              
-              totalResults={totalResults}
+             totalResults={totalResults}
               limit={RESULTS_PER_PAGE}
               onPageChange={handlePageChange}
             />
