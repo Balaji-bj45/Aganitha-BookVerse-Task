@@ -6,9 +6,9 @@ const Footer = () => (
       <p>BookVerse &copy; {new Date().getFullYear()}. Crafted for Alex's journey into knowledge.</p>
       <p className="text-sm mt-1">
         Aganitha Book Finder Task {' '}
-        <a href="https://openlibrary.org/developers/api" target="_blank" rel="noopener noreferrer" className="text-violet-400 hover:text-violet-300 transition-colors">
+        {/* <a href="https://openlibrary.org/developers/api" target="_blank" rel="noopener noreferrer" className="text-violet-400 hover:text-violet-300 transition-colors">
           Open Library API
-        </a>
+        </a> */}
       </p>
     </div>
   </footer>
