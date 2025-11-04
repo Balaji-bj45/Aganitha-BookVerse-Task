@@ -3,9 +3,7 @@
 
   
   ![Home Page UI](./public/Screenshot/home-page.png)
-  ![Home Page UI](./public/Screenshot/home-page.png)
-  ![Home Page UI](./public/Screenshot/home-page.png)
-  ![Home Page UI](./public/Screenshot/home-page.png)
+  
 
 **BookVerse** is a visually stunning, frontend-only web application for discovering books. Built for the modern web, it provides an immersive and dynamic interface to explore the vast collection of the Open Library API. This project was designed to be not just a functional tool, but a delightful experience for any book lover.
 
